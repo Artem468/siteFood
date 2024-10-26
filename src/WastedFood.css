@@ -1,0 +1,88 @@
+.wastedFood {
+    height: 61rem;
+    background: #F8F4EB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wastedFoodTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: calc(100% - 4rem);
+}
+
+.wastedFoodText {
+    font-size: 2.5rem;
+    color: #4E260D;
+    width: 25%;
+}
+
+.wastedFoodPlus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wastedFoodPlus div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wastedFoodPlus div img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.wastedFoodPlus p {
+    font-size: 1rem;
+    color: black;
+}
+
+.wastedFoodPlus div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.wastedFoodPlus div p {
+    color: #00945E;
+}
+
+.wastedFoodImage {
+    background: url("./assets/a3272c7390019a51bb1ed77232fadf5a.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 1rem;
+    width: calc(100% - 2rem);
+    height: 50rem;
+    display: flex;
+    justify-content: end;
+}
+
+.wastedFoodImage div {
+    padding: 3rem;
+    width: 40%;
+    height: calc(100% - 6rem);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.wastedFoodImage div p {
+    font-size: 1.5rem;
+}
+
+.wastedFoodImage div button {
+    border: none;
+    background: #00945E;
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+}
